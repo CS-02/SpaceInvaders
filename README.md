@@ -7,3 +7,9 @@
 *  Ernesto Baltasar Nve
 *  Jorge Espinar
 *  Miguel Ruíz Domínguez
+**Usuarios de [trello](https://trello.com/b/nMfJwqAy/g2):**
+*  @marinafs
+*  @alvaronoguerales
+*  @ernestobaltasarnveobono
+*  @jjve
+*  @miguel25491709
