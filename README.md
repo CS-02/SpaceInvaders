@@ -5,8 +5,9 @@
 *  Marina Fernández
 *  Alvaro Noguerales
 *  Ernesto Baltasar Nve
-*  Jorge Espinar
+*  Jorge José Vega Espinar
 *  Miguel Ruíz Domínguez
+
 **Usuarios de [trello](https://trello.com/b/nMfJwqAy/g2):**
 *  @marinafs
 *  @alvaronoguerales
