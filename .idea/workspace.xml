@@ -281,6 +281,7 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
+      <item itemvalue="Android JUnit.PlayerShipTest.update" />
       <item itemvalue="Android JUnit.ExampleUnitTest" />
       <item itemvalue="Android JUnit.All in app" />
     </list>
