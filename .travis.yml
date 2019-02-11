@@ -1,3 +1,3 @@
 language: java
-rvm:
+java:
 	- 1.8
