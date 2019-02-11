@@ -4,3 +4,6 @@
 .idea/workspace.xml
 local.properties
 *.properties
+*.bin
+*.lock
+*.lock
