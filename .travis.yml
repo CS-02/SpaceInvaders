@@ -31,6 +31,8 @@ android:
     - extra-android-m2repository
     # Specify at least one system image
     - sys-img-armeabi-v7a-google_apis-$ANDROID_EMULATOR_LEVEL
+    - sys-img-x86-android-26
+    - sys-img-armeabi-v7a-android-17
 
   licenses:
     - 'android-sdk-preview-license-.+'
