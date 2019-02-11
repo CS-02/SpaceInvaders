@@ -60,21 +60,3 @@ before_script:
 
 before_install:
   - yes | sdkmanager "platforms;android-25"
-
-jobs:
- include:
-  - stage: test
-    script:
-      - ./gradlew connectedObfDebugAndroidTest --stacktrace
-
-  - stage: test
-    script:
-      - ./gradlew connectedOffDebugAndroidTest --stacktrace
-
-  - stage: test
-    script:
-      - ./gradlew connectedOpfDebugAndroidTest --stacktrace
-
-  - stage: test
-    script:
-      - ./gradlew connectedOpffDebugAndroidTest --stacktrace
