@@ -14,7 +14,7 @@ android:
 before_install:
   - chmod 777 gradlew
   - chmod 777 -R /home/travis/*
-  - yes | ./sdkmanager --update
+  - yes | sdkmanager --update
 
 script:
   - ./gradlew build jacocoTestReport assembleAndroidTest
