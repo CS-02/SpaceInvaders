@@ -17,5 +17,5 @@
 *  @miguel25491709
 *	@mariadelgadoeiriz
 
-Despliegue de Travis: **
-https://travis-ci.org/CS-02/SpaceInvaders.svg?branch=master
+**Despliegue de Travis: **
+![Travis-ci](https://travis-ci.org/CS-02/SpaceInvaders.svg?branch=master)
