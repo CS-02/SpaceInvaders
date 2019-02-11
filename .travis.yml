@@ -10,9 +10,6 @@ env:
     - ANDROID_ABI=armeabi-v7a
     - ANDROID_TAG=google_apis
     - ADB_INSTALL_TIMEOUT=20 # minutes (2 minutes by default)
-    - secure: "fpNJresszWHcOg8Qh4plu2RJFOv9AzCMh2dVV2SbwWNRuf2j15raDdFGhCD2tEM7ddhqrfHgmiwqFSWCzjWw1azx0ovGJfFhikLM741pLb68S/EkOdvl9RU6DXeC6+Tyg0iaustgkoK24kwkzx/kg3o56TyFg1g2ufsQqfEseJtOGVQEh86zj8ncfU60VcMP7HHqHZMjlZaQ+G0Ale4ofzQzmAbiNiNPjykMbjDhzdKMTeZLXnj8S59twI1y/D/JdfKCiq/xOnO3HbIZBZ4A3nVb/fV5WCR4Kw6LRzoNE9qYnxJFaeIYSF9+YDDol9PbQRWTX5EgDnJBbZqj8aSYUEk3WUGRnDCKYR0R/v/BhTfnLIp1jBQWyhDJ56iPZ+tgRfChMejsf8aH8agPwczjfbX8H/1NLzBAtF/elA67dPaoQMqb33nO8D+ESIIyYNsK4CyfeDF6/qT/IcBBa7FUfhIOHjwLnaeCyZS78eq2QUSNkDaATKM8BUot+hGMTenBpivEDKL1L+twFFFKjNK3HkvnJ2H92P/EgT7OUVSuPnD5czfK3WydMmbimChKoygSq5/62tC6FMHUNdNj7pHnfJWTdSj+RgNJKVTasPJAQ1B+pU/z+TZVJMsBpME2CTtNGC6+o9W/6K5FMUt/2J/P63RHJqXXZLtttphN3tg7eLo="
-
-android:
   components:
     - tools
     - platform-tools
@@ -62,7 +59,7 @@ before_script:
   - adb shell input keyevent 82 &
 
 before_install:
-  - yes | sdkmanager "platforms;android-27"
+  - yes | sdkmanager "platforms;android-25"
 
 jobs:
  include:
@@ -81,19 +78,3 @@ jobs:
   - stage: test
     script:
       - ./gradlew connectedOpffDebugAndroidTest --stacktrace
-
-branches:
-  only:
-    - master
-
-notifications:
-  email: false
-  slack: openfoodfacts:mXLLSlWjBKA9e03ELQ83rNvB
-
-sudo: required
-
-addons:
-  artifacts: true
-  paths:
-    - my_path
-
