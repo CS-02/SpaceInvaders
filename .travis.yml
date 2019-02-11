@@ -1,32 +1,12 @@
 language: android
-jdk: oraclejdk8
-env:
-  global:
-  - ANDROID_API=27
 android:
   components:
-  - tools
-  - tools
-  - platform-tools
-  - build-tools-26.0.2
-  - android-${ANDROID_API}
-  - extra-android-m2repository
-  licenses:
-  - android-sdk-license-.+
+    - tools # to get the new `repository-11.xml`
+    - tools # see https://github.com/travis-ci/travis-ci/issues/6040#issuecomment-219367943)
+    - platform-tools
+    - build-tools-27.0.3
+    - android-27
 before_install:
-- yes | sdkmanager "platforms;android-27"
-- chmod +x gradlew
-before_cache: "-rm -f $HOME/.gradle/caches/modules-2/modules-2.lock -rm -fr $HOME/.gradle/caches/*/plugin-resolution/"
-cache:
-  directories:
-  - "$HOME/.gradle/caches/"
-  - "$HOME/.gradle/wrapper/"
-  - "$HOME/.android/build-cache"
+  - yes | sdkmanager "platforms;android-27"
 script:
-
-- "./gradlew assembleRelease"
-
-deploy:
-  provider: releases
-  skip_cleanup: true
-  overwrite: true
+   - ./gradlew build connectedCheck
