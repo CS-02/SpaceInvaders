@@ -13,7 +13,7 @@ android:
 
 before_install:
   - chmod 777 gradlew
-  - chmod 777 -R /home/*
+  - chmod 777 -R /home/travis/*
 
 script:
   - ./gradlew build jacocoTestReport assembleAndroidTest
