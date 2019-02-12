@@ -58,5 +58,5 @@ before_install:
           
 deploy:
   - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
-    github_token: WDrTE0PrHlEPnfT0O0EPEw
+    github_token: bd31a028479cbd294409998b5d7f07991f2456d0
     skip_cleanup: true
