@@ -70,4 +70,7 @@ before_install:
           
 deploy:
   - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
+    github_token: $GITHUB_TOKEN
     skip_cleanup: true
+    on:
+        branch: master
