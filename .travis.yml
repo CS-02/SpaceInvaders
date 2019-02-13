@@ -49,7 +49,7 @@ android:
     - sys-img-armeabi-v7a-addon-google_apis-google-$EMULATOR_API_LEVEL
     
 before_script:
-- sdkmanager --list
+  - sdkmanager --list
   - echo no | android create avd --force -n test -k 'system-images;android-25;google_apis;x86'
   - emulator -avd test -no-skin -no-audio -no-window &
   - android-wait-for-emulator
@@ -61,15 +61,12 @@ script:
         - ./gradlew assembleDebugAndroidTest
         
 before_install:
-          - composer config --global github-oauth.github.com "bd31a028479cbd294409998b5d7f07991f2456d0"
           - mkdir "$ANDROID_HOME/licenses" || true
           - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
           - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
           - chmod 777 -R /home/travis/*
           - chmod +x gradlew
           - yes | sdkmanager --update
-install:
-  - composer install --dev --prefer-dist
           
 deploy:
   - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
