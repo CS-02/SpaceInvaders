@@ -68,6 +68,8 @@ before_install:
           - chmod 777 -R /home/travis/*
           - chmod +x gradlew
           - yes | sdkmanager --update
+install:
+  - composer install --dev --prefer-dist
           
 deploy:
   - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
