@@ -1,6 +1,9 @@
 package com.example.hectormediero.spaceinvadersdas.Models;
 
+import android.app.Activity;
 import android.content.Context;
+
+import com.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity;
 
 import org.junit.After;
 import org.junit.Before;
@@ -19,9 +22,10 @@ public class PlayerShipTest {
     public void setUp(){
         playerShip = new PlayerShip(context, screenX, screenY);
     }
+
     @Test
     public void update() {
-        assertTrue(true);
+        assertNotNull(playerShip);
     }
 
     @Test
