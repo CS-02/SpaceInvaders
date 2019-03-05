@@ -51,6 +51,8 @@ script:
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
         - ./gradlew clean build connectedCheck assemble sonarqube
+        - yarn build
+        - sonar-scanner
         
 before_install:
           - mkdir "$ANDROID_HOME/licenses" || true
