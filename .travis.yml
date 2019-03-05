@@ -51,7 +51,6 @@ script:
         - ./gradlew clean
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
-        - ./gradlew clean build connectedCheck assemble sonarqube
         - yarn build
         - sonar-scanner
         
