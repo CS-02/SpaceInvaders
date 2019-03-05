@@ -45,6 +45,7 @@ before_script:
 addons:
           sonarcloud:
                       organization: "cobramarley-github"
+                
 script:
         - ./gradlew clean
         - ./gradlew assembleDebug
@@ -59,6 +60,8 @@ before_install:
           - chmod +x gradlew
           - yes | sdkmanager --update
           
+ install:
+          - yarn install
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
