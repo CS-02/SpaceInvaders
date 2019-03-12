@@ -53,44 +53,6 @@ public class BaseDeDatosPuntuaciones extends SQLiteOpenHelper {
         db.close();
     }
 
-
-    public boolean remove(int id) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        try{
-            db.delete(TABLA_PUNTUACIONES,
-                    " _id = ?",
-                    new String[] { String.valueOf (id ) });
-            db.close();
-            return true;
-
-        }catch(Exception ex){
-            return false;
-        }
-    }
-
-    public void getScoreById(int id){
-        SQLiteDatabase db = this.getReadableDatabase();
-        String[] projection = {COLUMNA_ID, COLUMNA_NOMBRE};
-
-        Cursor cursor =
-                db.query(TABLA_PUNTUACIONES,
-                        projection,
-                        " _id = ?",
-                        new String[] { String.valueOf(id) },
-                        null,
-                        null,
-                        null,
-                        null);
-
-
-        if (cursor != null)
-            cursor.moveToFirst();
-
-        System.out.println("El nombre es " +  cursor.getString(1) );
-        db.close();
-
-    }
-
     public Cursor getAllScore(){
         SQLiteDatabase db = this.getReadableDatabase();
         String[] projection = {COLUMNA_ID, COLUMNA_NOMBRE,COLUMNA_PUNTUACION};
@@ -111,20 +73,6 @@ public class BaseDeDatosPuntuaciones extends SQLiteOpenHelper {
         System.out.println("El nombre es " +  cursor.getString(1) +" y su puntuación es de : "+cursor.getString(2));
         db.close();
         return cursor;
-
-    }
-
-    public void updateNombre(String nombre, int id){
-        SQLiteDatabase db = this.getWritableDatabase();
-
-        ContentValues values = new ContentValues();
-        values.put("nombre",nombre);
-
-        int i = db.update(TABLA_PUNTUACIONES,
-                values,
-                " _id = ?",
-                new String[] { String.valueOf( id ) });
-        db.close();
 
     }
 }

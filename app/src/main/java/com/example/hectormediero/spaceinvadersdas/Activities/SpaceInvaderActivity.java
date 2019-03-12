@@ -66,7 +66,7 @@ public class SpaceInvaderActivity extends Activity {
     }
 
     public void lanzarIntentCamara(){
-        dispatchTakePictureIntent("");
+        dispatchTakePictureIntent();
     }
     private void galleryAddPic() {
         Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
@@ -77,7 +77,7 @@ public class SpaceInvaderActivity extends Activity {
     }
 
 
-    private void dispatchTakePictureIntent(String nombre) {
+    private void dispatchTakePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         // Ensure that there's a camera activity to handle the intent
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
@@ -104,7 +104,6 @@ public class SpaceInvaderActivity extends Activity {
 
     private File createImageFile() throws IOException {
         // Create an image file name
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = username;
         File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         File image = File.createTempFile(
@@ -140,9 +139,5 @@ public class SpaceInvaderActivity extends Activity {
         }else{
             spaceInvadersView13.pause();
         }
-    }
-
-    public String getUsername() {
-        return username;
     }
 }

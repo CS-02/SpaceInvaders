@@ -13,13 +13,15 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
 public class SpaceInvadersViewTest {
 
     Context context;
     SpaceInvadersView13 sp;
+    SpaceInvadersView sp2;
 
     int screenX = 1000;
     int screenY = 1000;
@@ -34,18 +36,21 @@ public class SpaceInvadersViewTest {
     public void setup(){
         context = InstrumentationRegistry.getTargetContext();
         sp = new SpaceInvadersView13(context,screenX,screenY);
+        sp2 = new SpaceInvadersView(context,screenX,screenY, "jihg");
+        playerShip = new PlayerShip(context, 0, 0);
         invaders = new Invader[60];
         bricks = new DefenceBrick[400];
     }
 
+
+
     @Test
     public void preparePlayerShip() {
-        playerShip = new PlayerShip(context, 0, 0);
         assertNotNull(playerShip);
     }
 
     @Test
-    public void prepareBullet(){
+    public void prepareBullet() {
         Bullet bullet = new Bullet(screenY);
         assertNotNull(bullet);
     }
@@ -74,7 +79,6 @@ public class SpaceInvadersViewTest {
                 }
             }
         }
-
         assertTrue(numBricks!=0);
         assertNotNull(bricks);
     }

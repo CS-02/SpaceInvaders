@@ -2,16 +2,13 @@ package com.example.hectormediero.spaceinvadersdas.Activities;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
+import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,31 +16,24 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.hectormediero.spaceinvadersdas.Adapters.Save;
 import com.example.hectormediero.spaceinvadersdas.Adapters.ScoreAdapter;
-import com.example.hectormediero.spaceinvadersdas.BDD.BaseDeDatosPuntuaciones;
-import com.example.hectormediero.spaceinvadersdas.R;
 import com.example.hectormediero.spaceinvadersdas.Models.Score;
+import com.example.hectormediero.spaceinvadersdas.R;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 
 public class ScoreActivity extends AppCompatActivity {
-    final private Integer maxNumScores = 15;
-    private BaseDeDatosPuntuaciones bdd;
-    private String mayor13, username;
+    private String mayor13;
+    private String username;
     private Integer score;
-    String mCurrentPhotoPath, currentUserName;
-    static final int REQUEST_IMAGE_CAPTURE = 1;
+    String mCurrentPhotoPath;
     ArrayList<Score> arrayPuntuaciones;
     ImageView cambia;
 
@@ -54,7 +44,6 @@ public class ScoreActivity extends AppCompatActivity {
 
         File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         mCurrentPhotoPath=storageDir.getAbsolutePath();
-        bdd = new BaseDeDatosPuntuaciones(this);
 
         final Intent spaceGame = new Intent(getApplicationContext(), SpaceInvaderActivity.class);
         final Intent startGame = new Intent(getApplicationContext(), StartGameActivity.class);
@@ -209,56 +198,6 @@ public class ScoreActivity extends AppCompatActivity {
         }
     }
 
-    private void galleryAddPic() {
-        Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
-        File f = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        Uri contentUri = Uri.fromFile(f);
-        mediaScanIntent.setData(contentUri);
-        this.sendBroadcast(mediaScanIntent);
-    }
-
-
-    private void dispatchTakePictureIntent(String nombre) {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        // Ensure that there's a camera activity to handle the intent
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            // Create the File where the photo should go
-            File photoFile = null;
-            try {
-                photoFile = createImageFile();
-            } catch (IOException ex) {
-                Toast.makeText(this, "¡No se ha podido guardar la imagen!", Toast.LENGTH_SHORT).show();
-            }
-            // Continue only if the File was successfully created
-            if (photoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.example.android.fileprovider",
-                        photoFile);
-                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-            }
-        }
-        galleryAddPic();
-    }
-
-
-
-    private File createImageFile() throws IOException {
-        // Create an image file name
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String imageFileName = username;
-        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        File image = File.createTempFile(
-                imageFileName,  /* prefix */
-                ".jpg",         /* suffix */
-                storageDir      /* directory */
-        );
-
-        // Save a file: path for use with ACTION_VIEW intents
-        mCurrentPhotoPath = storageDir.getPath();
-        currentUserName = image.getName();
-        return image;
-    }
 
     private String findImage(String username){
         String path = mCurrentPhotoPath +File.separator;
@@ -279,23 +218,6 @@ public class ScoreActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-
+        //Code Smell...
     }
-
-
-    private void addScore() {
-        String name = "";
-        Integer puntuacion = score;
-        bdd.addScore(new Score(puntuacion, name));
-    }
-
-    private void createTableScore() {
-        Integer i = 0;
-        Cursor c = bdd.getAllScore();
-        while (c.moveToNext() && i < maxNumScores) {
-
-        }
-    }
-
-
 }
