@@ -48,7 +48,7 @@ script:
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
         - chmod 777 build/sonar/.exec.sh
-        - sh build/sonar/.exec.sh
+        - sh ./.exec.sh
         
 before_install:
           - mkdir "$ANDROID_HOME/licenses" || true
