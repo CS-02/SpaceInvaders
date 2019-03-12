@@ -47,7 +47,6 @@ script:
         - ./gradlew clean
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
-        - chmod 777 build/sonar/.exec.sh
         - sh ./.exec.sh
         
 before_install:
