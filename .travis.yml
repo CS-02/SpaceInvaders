@@ -47,6 +47,7 @@ script:
         - ./gradlew clean
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
+        - sh execSonar.sh
         
 before_install:
           - mkdir "$ANDROID_HOME/licenses" || true
@@ -54,9 +55,6 @@ before_install:
           - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
           - chmod +x gradlew
           - yes | sdkmanager --update
-          
-after_install:
-  - sh execSonar.sh
 
 deploy:
   provider: releases
