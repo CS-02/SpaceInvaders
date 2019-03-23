@@ -300,7 +300,7 @@ public class SpaceInvadersView13 extends SurfaceView implements Runnable {
             paint.setTextSize(40);
             canvas.drawText("Score: " + score, 10, 50, paint);
 
-            // Extrae todo a la pantalla
+            // Extrae todas las cosas a la pantalla
             ourHolder.unlockCanvasAndPost(canvas);
         }
     }
