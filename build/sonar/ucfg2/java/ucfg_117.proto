@@ -1,0 +1,491 @@
+
+gcom.example.hectormediero.spaceinvadersdas.Views.JoystickView#onTouchEvent(Landroid/view/MotionEvent;)Z
+__unknown_file ("paramAnnotations*â
+24ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaª ª(Ç
+ˇ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaª ª(
+%22java.lang.Thread"__id*N*L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThreadÁ‰
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaª ª(#
+%23void"java.lang.Thread#interrupt()V*
+
+%22java.lang.Thread2interrupt()*
+23*å
+25ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∫# ∫(*Ç
+ˇ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∫# ∫(*
+%20java.lang.Thread"__id*N*L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThreadÊ„
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∫# ∫(4
+%21boolean"java.lang.Thread#isAlive()Z*
+
+%20java.lang.Thread2	isAlive()*
+24
+23*£
+26ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∫ ∫(Ç
+ˇ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∫ ∫(
+%19java.lang.Thread"__id*N*L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThread*
+25
+23*»
+27ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaπ π(¯ı
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaπ π(
+
+%17int"%android.view.MotionEvent#getAction()I*#
+!
+eventandroid.view.MotionEvent2getAction()≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaπ! π(8
+
+%18int"__id*
+""*
+26
+9*º
+28ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java≤ ≤(¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java≤ ≤(S
+%13Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java≤% ≤(/
+
+%14int"Icom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getAngle()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView∞
+≠
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java≤1 ≤(>
+
+%15int"Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getStrength()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView˘ˆ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java≤ ≤(?
+%16void"Xcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener#onMove(II)V*U
+S
+%13Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener*
+
+
+%14int*
+
+
+%15int2
+onMove(II)*
+27*¥
+29ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÆ Æ(#–Õ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÆ Æ(%
+%11void"Tcom.example.hectormediero.spaceinvadersdas.Views.JoystickView#resetButtonPosition()V*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView2resetButtonPosition()¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java± ±(S
+%12Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback*
+27
+28*‰
+paramAnnotationsç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaõ õ(2‚
+ﬂ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaö ö(
+%0"
+__annotate*
+java.lang.Override*#
+!
+eventandroid.view.MotionEventÃ
+…
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaõ, õ(1!
+eventandroid.view.MotionEvent"__annotation*
+
+%0*
+35
+36
+38*ã
+30ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java™ ™(Å
+˛
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java™ ™(
+%9java.lang.Thread"__id*N*L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThreadÊ„
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java™ ™(
+%10void"java.lang.Thread#interrupt()V*
+
+%9java.lang.Thread2interrupt()*
+27
+29*«
+31ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java• •(D˜Ù
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaß ß(	
+%7int"%android.view.MotionEvent#getAction()I*#
+!
+eventandroid.view.MotionEvent2getAction()¨
+©
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaß! ß(6	
+%8int"__id*
+""*
+27
+30*¯
+32ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•8 •(=ÔÏ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•8 •(D
+%6float" android.view.MotionEvent#getX()F*#
+!
+eventandroid.view.MotionEvent2getX()≥
+∞
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•8 •(D	
+%4int"__id*
+
+%6float≥
+∞
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•2 •(D	
+%4int"__id*
+
+%6float*
+31*Œ
+33ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•' •(/±
+Æ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java•' •(/	
+%4int"__id*
+	
+%5int*
+31*ã
+11ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‚ ‚(-ñ
+ì
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‚ ‚(-
+%46android.os.Handler"__id*`*^?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mHandlerMultipleLongPressó
+î
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‚> ‚(X
+%47java.lang.Runnable"__id*a*_?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mRunnableMultipleLongPressºπ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‚ ‚(Y
+%48void"9android.os.Handler#removeCallbacks(Ljava/lang/Runnable;)V*
+
+%46android.os.Handler*
+
+%47java.lang.Runnable2%removeCallbacks(Ljava/lang/Runnable;)*
+8*‘
+12ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaﬂ ﬂ(≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaﬂ ﬂ(.
+
+%44int"__id*
+""ÑÅ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java· ·(+
+
+%45int"+android.view.MotionEvent#getPointerCount()I*#
+!
+eventandroid.view.MotionEvent2getPointerCount()*
+8
+11*¸
+35ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§8 §(=ÔÏ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§8 §(D
+%3float" android.view.MotionEvent#getY()F*#
+!
+eventandroid.view.MotionEvent2getY()≥
+∞
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§8 §(D	
+%1int"__id*
+
+%3float≥
+∞
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§2 §(D	
+%1int"__id*
+
+%3float*
+32
+33*“
+36ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§' §(/±
+Æ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java§' §(/	
+%1int"__id*
+	
+%2int*
+32
+33*ã
+14ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java€ €(-ñ
+ì
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java€ €(-
+%41android.os.Handler"__id*`*^?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mHandlerMultipleLongPressó
+î
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java€> €(X
+%42java.lang.Runnable"__id*a*_?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mRunnableMultipleLongPressºπ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java€ €(Y
+%43void"9android.os.Handler#removeCallbacks(Ljava/lang/Runnable;)V*
+
+%41android.os.Handler*
+
+%42java.lang.Runnable2%removeCallbacks(Ljava/lang/Runnable;)*
+8*Õ
+15ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÿ ÿ(≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÿ ÿ((
+
+%40int"__id*
+""*
+14
+8*Ø
+38ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaû û("ò
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaû û(
+""*é
+
+17ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java“ “(-ñ
+ì
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java“ “(-
+%36android.os.Handler"__id*`*^?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mHandlerMultipleLongPressó
+î
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java“: “(T
+%37java.lang.Runnable"__id*a*_?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+mRunnableMultipleLongPress˙
+˜
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java“V “(}
+
+%38int"5android.view.ViewConfiguration#getLongPressTimeout()I*"" 
+android.view.ViewConfiguration¬ø
+é
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java“ “(Ä
+%39boolean"6android.os.Handler#postDelayed(Ljava/lang/Runnable;J)Z*
+
+%36android.os.Handler*
+
+%37java.lang.Runnable*
+""2"postDelayed(Ljava/lang/Runnable;J)*
+8*‘
+18ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaœ œ(≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaœ œ(0
+
+%34int"__id*
+""ÑÅ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java— —(+
+
+%35int"+android.view.MotionEvent#getPointerCount()I*#
+!
+eventandroid.view.MotionEvent2getPointerCount()*
+17
+8*√
+1ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java˙ ˙(íè
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java˙ ˙(
+%56void"android.view.View#invalidate()V*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView2invalidate()"ò
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¸ ¸(
+""*∫
+2ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaı ı(¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaı ı(S
+%52Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaı! ı(+
+
+%53int"Icom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getAngle()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView∞
+≠
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaı- ı(:
+
+%54int"Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getStrength()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView˘ˆ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaı ı(;
+%55void"Xcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener#onMove(II)V*U
+S
+%52Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener*
+
+
+%53int*
+
+
+%54int2
+onMove(II)*
+1*ﬁ
+3ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÙ Ù(¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaÙ Ù(S
+%51Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback*
+2
+1*ı
+8ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaË Ë(◊
+‘
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaË È(:
+%50double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+3
+1*Ø
+9ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∆ ∆(ÑÅ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java∆ ∆('
+
+%49int"+android.view.MotionEvent#getActionMasked()I*#
+!
+eventandroid.view.MotionEvent2getActionMasked()*
+15
+18
+8
+21
+12*…
+21ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java« «(≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java« «((
+
+%33int"__id*
+""*
+8*ª
+22ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¬ ¬(¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¬ ¬(S
+%29Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback≠
+™
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¬! ¬(+
+
+%30int"Icom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getAngle()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView∞
+≠
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¬- ¬(:
+
+%31int"Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getStrength()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView˘ˆ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¬ ¬(;
+%32void"Xcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener#onMove(II)V*U
+S
+%29Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener*
+
+
+%30int*
+
+
+%31int2
+onMove(II)*
+9*∏
+23ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaæ! æ(%æª
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaæ æ( 
+%24java.lang.Thread"java.lang.Thread®
+•
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaæ æ(&
+%25".java.lang.Thread#<init>(Ljava/lang/Runnable;)V*
+
+%24java.lang.Thread*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickViewÇ
+ˇ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaæ æ(&L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThread"__id*
+
+%24java.lang.ThreadÇ
+ˇ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaø ø(
+%26java.lang.Thread"__id*N*L?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"	
+mThreadﬂ‹
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.javaø ø(
+%27void"java.lang.Thread#start()V*
+
+%26java.lang.Thread2start()¿
+Ω
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java¡ ¡(S
+%28Lcom.example.hectormediero.spaceinvadersdas.Views.JoystickView$OnMoveListener"__id*P*N?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView"
+	mCallback*
+9
+22:!
+eventandroid.view.MotionEventBA?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView

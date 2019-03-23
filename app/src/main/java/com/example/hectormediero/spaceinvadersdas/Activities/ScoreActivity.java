@@ -28,17 +28,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.logging.Logger;
 
 public class ScoreActivity extends AppCompatActivity {
     private String mayor13;
     private String username;
-    private Integer score;
     String mCurrentPhotoPath;
     ArrayList<Score> arrayPuntuaciones;
     ImageView cambia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int score;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
@@ -65,7 +66,7 @@ public class ScoreActivity extends AppCompatActivity {
                                     openFileInput("nueva_puntuacioness2.txt")));
             String lineaActual;
             while ((lineaActual = fin.readLine()) != null) {
-                System.out.println(lineaActual);
+                    System.out.println(lineaActual);
                 String[] puntuacioneGuardadas = lineaActual.trim().split("#");
                 for (int i = 0; i < puntuacioneGuardadas.length; i++) {
                     String[] datosPuntuacion = puntuacioneGuardadas[i].split("¬");
@@ -82,7 +83,7 @@ public class ScoreActivity extends AppCompatActivity {
             Log.i("Ficheros", "ALGO PASA!");
         }
 
-        if (arrayPuntuaciones.size() > 0) {
+        if (!arrayPuntuaciones.isEmpty()) {
             Collections.sort(arrayPuntuaciones);
             System.out.println(arrayPuntuaciones.toString());
         }
@@ -96,7 +97,7 @@ public class ScoreActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-
+                //CODE SMELL, PUT WHYYYYY
             }
         });
         resultTV.setText(result);
@@ -127,29 +128,9 @@ public class ScoreActivity extends AppCompatActivity {
         }
 
         String valor=findImage(username);
-        if(!valor.equals("No")){
-            int targetW = 200;
-            int targetH = 200;
+        doItIfNotEqual(valor);
 
-            // Get the dimensions of the bitmap
-            BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-            bmOptions.inJustDecodeBounds = true;
 
-            BitmapFactory.decodeFile(valor, bmOptions);
-            int photoW = bmOptions.outWidth;
-            int photoH = bmOptions.outHeight;
-
-            // Determine how much to scale down the image
-            int scaleFactor = Math.min(photoW/targetW, photoH/targetH);
-
-            // Decode the image file into a Bitmap sized to fill the View
-            bmOptions.inJustDecodeBounds = false;
-            bmOptions.inSampleSize = scaleFactor;
-            bmOptions.inPurgeable = true;
-
-            Bitmap bitmap = BitmapFactory.decodeFile(valor, bmOptions);
-            cambia.setImageBitmap(bitmap);
-        }
         cambia.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -161,10 +142,7 @@ public class ScoreActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        String valor=findImage(username);
+    public void doItIfNotEqual(String valor) {
         if(!valor.equals("No")){
             int targetW = 200;
             int targetH = 200;
@@ -190,6 +168,14 @@ public class ScoreActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        String valor=findImage(username);
+        doItIfNotEqual(valor);
+    }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 4 && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
@@ -204,7 +190,7 @@ public class ScoreActivity extends AppCompatActivity {
         System.out.println(path);
         File f = new File(path);
         //obtiene nombres de archivos dentro del directorio.
-        File file[] = f.listFiles();
+        File[] file = f.listFiles();
         for (int i=0; i < file.length; i++)
         {
             System.out.println("EEEEEEEEEEEEEEEE");

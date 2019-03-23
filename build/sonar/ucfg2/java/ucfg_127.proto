@@ -1,0 +1,20 @@
+
+Ocom.example.hectormediero.spaceinvadersdas.Views.JoystickView#getNormalizedX()I
+__unknown_file ("1*î
+1ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‰ ‰(åâ
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‰8 ‰(B	
+%0int"android.view.View#getWidth()I*A?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView2
+getWidth()‘
+—
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‰ ‰(T	
+%1int"java.lang.Math#round(F)I*"
+java.lang.Math*
+"""ò
+ç
+Ä/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/JoystickView.java‰ ‰(U
+""BA?
+=com.example.hectormediero.spaceinvadersdas.Views.JoystickView
