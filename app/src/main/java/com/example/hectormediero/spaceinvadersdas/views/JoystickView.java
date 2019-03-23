@@ -1,4 +1,4 @@
-package com.example.hectormediero.spaceinvadersdas.Views;
+package com.example.hectormediero.spaceinvadersdas.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;

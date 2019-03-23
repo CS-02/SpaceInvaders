@@ -1,4 +1,4 @@
-package com.example.hectormediero.spaceinvadersdas.Views;
+package com.example.hectormediero.spaceinvadersdas.views;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,13 +8,10 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import android.media.Image;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import com.example.hectormediero.spaceinvadersdas.Activities.ScoreActivity;
 import com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick;
@@ -331,35 +328,27 @@ public class SpaceInvadersView13 extends SurfaceView implements Runnable {
 
         float x = motionEvent.getX();
         float y = motionEvent.getY();
-        switch (motionEvent.getAction() & MotionEvent.ACTION_MASK) {
+        int i = motionEvent.getAction() & MotionEvent.ACTION_MASK;// El jugador ha tocado la pantalla
+        if (i == MotionEvent.ACTION_DOWN) {
+            paused = false;
 
-            // El jugador ha tocado la pantalla
-            case MotionEvent.ACTION_DOWN:
-                paused = false;
+            if (x > 0 && x < izq.getWidth() && y > screenY - 140 && y < screenY - 150 + izq.getHeight()) {
+                //IZQ
+                playerShip.setMovementState(playerShip.LEFT);
+            } else if (x > 150 && x < 150 + izq.getWidth() && y > screenY - 150 && y < screenY - 140 + izq.getHeight()) {
+                //DCHA
+                playerShip.setMovementState(playerShip.RIGHT);
+            } else if (x > 75 && x < 75 + izq.getWidth() && y > screenY - 200 && y < screenY - 190 + izq.getHeight()) {
+                //UP
+                playerShip.setMovementState(playerShip.UP);
+            } else if (x > 75 && x < 75 + izq.getWidth() && y > screenY - 100 && y < screenY - 90 + izq.getHeight()) {
+                //DOWN
+                playerShip.setMovementState(playerShip.DOWN);
+            }
 
-                if (x > 0 && x < 0 + izq.getWidth() && y > screenY - 140 && y < screenY - 150 + izq.getHeight()) {
-                    //IZQ
-                    // System.out.println("IZQ");
-                    playerShip.setMovementState(playerShip.LEFT);
-                } else if (x > 150 && x < 150 + izq.getWidth() && y > screenY - 150 && y < screenY - 140 + izq.getHeight()) {
-                    //DCHA
-                    //System.out.println("DCHA");
-                    playerShip.setMovementState(playerShip.RIGHT);
-                } else if (x > 75 && x < 75 + izq.getWidth() && y > screenY - 200 && y < screenY - 190 + izq.getHeight()) {
-                    //UP
-                    //System.out.println("UP");
-                    playerShip.setMovementState(playerShip.UP);
-                } else if (x > 75 && x < 75 + izq.getWidth() && y > screenY - 100 && y < screenY - 90 + izq.getHeight()) {
-                    //DOWN
-                    //System.out.println("DOWN");
-                    playerShip.setMovementState(playerShip.DOWN);
-                }
-                break;
             // El jugador a retirado el dedo de la pantalla
-            case MotionEvent.ACTION_UP:
-                //se para
-                playerShip.setMovementState(playerShip.STOPPED);
-                break;
+        } else if (i == MotionEvent.ACTION_UP) {//se para
+            playerShip.setMovementState(playerShip.STOPPED);
         }
 
         return true;

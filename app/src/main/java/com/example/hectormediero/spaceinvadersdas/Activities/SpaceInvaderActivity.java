@@ -1,7 +1,6 @@
 package com.example.hectormediero.spaceinvadersdas.Activities;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.Point;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,16 +8,15 @@ import android.app.Activity;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
+import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import com.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView;
-import com.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView13;
+import com.example.hectormediero.spaceinvadersdas.views.SpaceInvadersView;
+import com.example.hectormediero.spaceinvadersdas.views.SpaceInvadersView13;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 // SpaceInvadersActivity es el punto de entrada al juego.
 // Se va a encargar del ciclo de vida del juego al llamar
@@ -135,7 +133,12 @@ public class SpaceInvaderActivity extends Activity {
         super.onPause();
         // Le dice al método de pausa del gameView que se ejecute
         if(mayor13.equals("true")){
-            spaceInvadersView.pause();
+            try {
+                spaceInvadersView.pause();
+            }catch (InterruptedException e){
+                Log.e("Exception",e.getMessage());
+            }
+
         }else{
             spaceInvadersView13.pause();
         }
