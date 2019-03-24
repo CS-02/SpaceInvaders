@@ -431,8 +431,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
 
     //Gestiona el final del juego
     private void gameOver(boolean win) {
-        //tp.cancel();
-        //ambush.cancel();
         cancelTimer();
         scoreGame.putExtra("mayor13", "true");
         if (win) {
@@ -573,7 +571,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
             // El jugador ha tocado la pantalla
             case MotionEvent.ACTION_DOWN:
                 paused = false;
-
+                bullet.shoot(playerShip.getX(), playerShip.getY(), 0);
                 if (x > 0 && x < izq.getWidth() && y > screenY - 140 && y < screenY - 150 + izq.getHeight()) {
                     //IZQ
                     playerShip.setMovementState(playerShip.LEFT);
@@ -586,8 +584,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                 } else if (x > 75 && x < 75 + abj.getWidth() && y > screenY - 100 && y < screenY - 90 + izq.getHeight()) {
                     //DOWN
                     playerShip.setMovementState(playerShip.DOWN);
-                } else if (x > 555 && x < 5555 + abj.getWidth() && y > screenY - 100 && y < screenY - 590 + izq.getHeight()) {
-
                 }
                 break;
             // El jugador a retirado el dedo de la pantalla
@@ -603,6 +599,12 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
     }
 
     public void startTimers() {
+
+        tpTimer();
+        ambushTimer();
+    }
+
+    private void tpTimer() {
         tp = new CountDownTimer(6000000, 9000) {
             public void onTick(long millisUntilFinished) {
                 SecureRandom sr = new SecureRandom();
@@ -617,27 +619,12 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
 
                 //Implementar relatividad general, aplicando un campo magnético a la nave del jugador,
                 // desde el punto de vista físico la lógica carece de sentido.  ????????????????
+                contador = timerCount(rectaux,contador);
 
-                for (Bullet invadersBullet : invadersBullets) {
-                    if (rectaux.intersect(invadersBullet.getRect())) {
-                        contador++;
-                    } else {
-                        for (int j = 0; j < numInvaders; j++) {
-                            if (rectaux.intersect(invaders[j].getRect())) {
-                                contador++;
-                            } else {
-                                for (int k = 0; k < numBricks; k++) {
-                                    if (rectaux.intersect(bricks[k].getRect())) {
-                                        contador++;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
                 if (contador == 0) {
                     playerShip.actualizarRectangulo(nHorizontal, nVertical);
                 }
+
             }
 
             @Override
@@ -645,7 +632,29 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                 // Code Smell..
             }
         }.start();
+    }
 
+    private int timerCount(RectF rectaux, int num){
+        int contador = num;
+        for (Bullet invadersBullet : invadersBullets) {
+            if (rectaux.intersect(invadersBullet.getRect())) {
+                contador++;
+            }
+        }
+        for (int j = 0; j < numInvaders; j++) {
+            if (rectaux.intersect(invaders[j].getRect())) {
+                contador++;
+            }
+        }
+        for (int k = 0; k < numBricks; k++) {
+            if (rectaux.intersect(bricks[k].getRect())) {
+                contador++;
+            }
+        }
+        return contador;
+    }
+
+    private void ambushTimer() {
         ambush = new CountDownTimer(600000, 10000) {
             public void onTick(long millisUntilFinished) {
                 if (clock >= 0) {
@@ -656,6 +665,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
 
             @Override
             public void onFinish() {
+                //Not necessary
             }
         }.start();
     }
