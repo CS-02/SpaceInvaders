@@ -1,10 +1,8 @@
-package com.example.hectormediero.spaceinvadersdas.views;
+package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
 
-import com.example.hectormediero.spaceinvadersdas.Models.Bullet;
+
 import com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick;
 import com.example.hectormediero.spaceinvadersdas.Models.Invader;
 import com.example.hectormediero.spaceinvadersdas.Models.PlayerShip;
@@ -13,15 +11,17 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import androidx.test.InstrumentationRegistry;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
-public class SpaceInvadersViewTest {
+public class SpaceInvadersView13Test {
 
     Context context;
     SpaceInvadersView13 sp;
-    SpaceInvadersView sp2;
 
     int screenX = 1000;
     int screenY = 1000;
@@ -36,25 +36,15 @@ public class SpaceInvadersViewTest {
     public void setup(){
         context = InstrumentationRegistry.getTargetContext();
         sp = new SpaceInvadersView13(context,screenX,screenY);
-        sp2 = new SpaceInvadersView(context,screenX,screenY, "jihg");
-        playerShip = new PlayerShip(context, 0, 0);
         invaders = new Invader[60];
         bricks = new DefenceBrick[400];
     }
 
-
-
     @Test
     public void preparePlayerShip() {
+        playerShip = new PlayerShip(context, screenX, screenY);
         assertNotNull(playerShip);
     }
-
-    @Test
-    public void prepareBullet() {
-        Bullet bullet = new Bullet(screenY);
-        assertNotNull(bullet);
-    }
-
     @Test
     public void prepareInvaders() {
         numInvaders = 0;
@@ -79,15 +69,9 @@ public class SpaceInvadersViewTest {
                 }
             }
         }
+
         assertTrue(numBricks!=0);
         assertNotNull(bricks);
     }
-
-    @Test
-    public void testBulletShoot(){
-        Bullet bullet = new Bullet(screenY);
-
-    }
-
 
 }

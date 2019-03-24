@@ -12,8 +12,8 @@ import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import com.example.hectormediero.spaceinvadersdas.views.SpaceInvadersView;
-import com.example.hectormediero.spaceinvadersdas.views.SpaceInvadersView13;
+import com.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView;
+import com.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView13;
 
 import java.io.File;
 import java.io.IOException;

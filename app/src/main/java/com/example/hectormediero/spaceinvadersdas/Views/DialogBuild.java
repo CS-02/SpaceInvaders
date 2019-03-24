@@ -1,4 +1,4 @@
-package com.example.hectormediero.spaceinvadersdas.views;
+package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

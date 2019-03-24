@@ -1,4 +1,4 @@
-package com.example.hectormediero.spaceinvadersdas.views;
+package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -63,6 +63,9 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
     int score = 0;                  // La puntuación
     private int lives = 1;          // Vidas
     private String username;
+    public CountDownTimer ambush;   //Timer para los Ambushers, cada 10 segundos aparece uno, durante 10 minutos/*
+    public CountDownTimer tp = null;//Timer para el Teletransporte , cada 3 segundos,durante 10 minutos
+
 
     /*************************
      *    GAME ENTITIES      *
@@ -159,67 +162,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         }
     }
 
-
-    //Timer para los Ambushers, cada 10 segundos aparece uno, durante 10 minutos
-    CountDownTimer ambush = new CountDownTimer(600000, 10000) {
-        public void onTick(long millisUntilFinished) {
-            if (clock >= 0) {
-                ambusher[clock].setVisible();
-            }
-            clock++;
-        }
-
-        @Override
-        public void onFinish() {
-            // Code Smell..
-        }
-    };
-
-    //Timer para el Teletransporte , cada 3 segundos,durante 10 minutos
-    CountDownTimer tp = new CountDownTimer(6000000, 9000) {
-        public void onTick(long millisUntilFinished) {
-            SecureRandom sr = new SecureRandom();
-            int contador = 0;
-            int nVertical = (int) (sr.nextFloat() * (screenY - playerShip.getHeight())) + 1;
-            int nHorizontal = (int) (sr.nextFloat() * (screenX - playerShip.getLength())) + 1;
-            RectF rectaux = new RectF();
-            rectaux.top = nVertical;
-            rectaux.bottom = nVertical + playerShip.getHeight();
-            rectaux.left = nHorizontal;
-            rectaux.right = nHorizontal + playerShip.getLength();
-
-            //Implementar relatividad general, aplicando un campo magnético a la nave del jugador,
-            // desde el punto de vista físico la lógica carece de sentido.  ????????????????
-
-            for (Bullet invadersBullet : invadersBullets) {
-                if (rectaux.intersect(invadersBullet.getRect())) {
-                    contador++;
-                } else {
-                    for (int j = 0; j < numInvaders; j++) {
-                        if (rectaux.intersect(invaders[j].getRect())) {
-                            contador++;
-                        } else {
-                            for (int k = 0; k < numBricks; k++) {
-                                if (rectaux.intersect(bricks[k].getRect())) {
-                                    contador++;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (contador == 0) {
-                playerShip.actualizarRectangulo(nHorizontal, nVertical);
-            }
-        }
-
-        @Override
-        public void onFinish() {
-            // Code Smell..
-        }
-    };
-
-
     // Este método se ejecuta cuando el jugador empieza el juego
 
     @Override
@@ -227,7 +169,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         long timeThisFrame;
         Looper.prepare();
         while (playing) {
-
             // Captura el tiempo actual en milisegundos en startFrameTime
             long startFrameTime = System.currentTimeMillis();
 
@@ -270,7 +211,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         }
 
         updateBullets();                //Actualiza las balas de todos los elementos en pantalla
-        bulletBounce(invadersBullets);//Comprueba que las balas toquen con los bordes y reboten
+        bulletBounce(invadersBullets);  //Comprueba que las balas toquen con los bordes y reboten
         bulletBounce(ambusherBullets);
 
         contadorColor = collisionCheck(contadorColor); //Comprobación de colisiones y cambio de color
@@ -490,8 +431,9 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
 
     //Gestiona el final del juego
     private void gameOver(boolean win) {
-        tp.cancel();
-        ambush.cancel();
+        //tp.cancel();
+        //ambush.cancel();
+        cancelTimer();
         scoreGame.putExtra("mayor13", "true");
         if (win) {
             scoreGame.putExtra("result", "YOU WON");
@@ -579,7 +521,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         }
     }
 
-    private void drawEntities(Canvas canvas){
+    private void drawEntities(Canvas canvas) {
         // Dibuja a los invaders
         for (int i = 0; i < numInvaders; i++) {
             if (invaders[i].getVisibility()) {
@@ -606,16 +548,13 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
     // apaga nuestra secuencia.
     public void pause() throws InterruptedException {
         playing = false;
-        ambush.cancel();
-        tp.cancel();
         gameThread.join();
     }
 
     // Si SpaceInvadersActivity es iniciado entonces
     // inicia nuestra secuencia.
     public void resume() {
-        ambush.start();
-        tp.start();
+        startTimers();
         playing = true;
         gameThread = new Thread(this);
         gameThread.start();
@@ -647,6 +586,8 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                 } else if (x > 75 && x < 75 + abj.getWidth() && y > screenY - 100 && y < screenY - 90 + izq.getHeight()) {
                     //DOWN
                     playerShip.setMovementState(playerShip.DOWN);
+                } else if (x > 555 && x < 5555 + abj.getWidth() && y > screenY - 100 && y < screenY - 590 + izq.getHeight()) {
+
                 }
                 break;
             // El jugador a retirado el dedo de la pantalla
@@ -659,6 +600,69 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                 break;
         }
         return true;
+    }
+
+    public void startTimers() {
+        tp = new CountDownTimer(6000000, 9000) {
+            public void onTick(long millisUntilFinished) {
+                SecureRandom sr = new SecureRandom();
+                int contador = 0;
+                int nVertical = (int) (sr.nextFloat() * (screenY - playerShip.getHeight())) + 1;
+                int nHorizontal = (int) (sr.nextFloat() * (screenX - playerShip.getLength())) + 1;
+                RectF rectaux = new RectF();
+                rectaux.top = nVertical;
+                rectaux.bottom = nVertical + playerShip.getHeight();
+                rectaux.left = nHorizontal;
+                rectaux.right = nHorizontal + playerShip.getLength();
+
+                //Implementar relatividad general, aplicando un campo magnético a la nave del jugador,
+                // desde el punto de vista físico la lógica carece de sentido.  ????????????????
+
+                for (Bullet invadersBullet : invadersBullets) {
+                    if (rectaux.intersect(invadersBullet.getRect())) {
+                        contador++;
+                    } else {
+                        for (int j = 0; j < numInvaders; j++) {
+                            if (rectaux.intersect(invaders[j].getRect())) {
+                                contador++;
+                            } else {
+                                for (int k = 0; k < numBricks; k++) {
+                                    if (rectaux.intersect(bricks[k].getRect())) {
+                                        contador++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                if (contador == 0) {
+                    playerShip.actualizarRectangulo(nHorizontal, nVertical);
+                }
+            }
+
+            @Override
+            public void onFinish() {
+                // Code Smell..
+            }
+        }.start();
+
+        ambush = new CountDownTimer(600000, 10000) {
+            public void onTick(long millisUntilFinished) {
+                if (clock >= 0) {
+                    ambusher[clock].setVisible();
+                }
+                clock++;
+            }
+
+            @Override
+            public void onFinish() {
+            }
+        }.start();
+    }
+
+    public void cancelTimer() {
+        if (tp != null) tp.cancel();
+        if (ambush != null) ambush.cancel();
     }
 
 }

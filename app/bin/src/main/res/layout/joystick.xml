@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<com.example.hectormediero.spaceinvadersdas.views.JoystickView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.hectormediero.spaceinvadersdas.Views.JoystickView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/Prueba"
     android:layout_width="wrap_content"
