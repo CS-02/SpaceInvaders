@@ -1,6 +1,7 @@
 package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.content.Context;
+import android.graphics.RectF;
 
 
 import com.example.hectormediero.spaceinvadersdas.Models.Bullet;
@@ -14,24 +15,22 @@ import org.junit.runner.RunWith;
 
 import androidx.test.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
 public class SpaceInvadersViewTest {
 
-    Context context;
-    SpaceInvadersView sp2;
+    private Context context;
+    private SpaceInvadersView sp2;
 
-    int screenX = 1000;
-    int screenY = 1000;
+    private int screenX = 1000;
+    private int screenY = 1000;
 
-    int numInvaders;
-    Invader[] invaders;
-    PlayerShip playerShip;
-    DefenceBrick[] bricks;
-    int numBricks;
+    private Invader[] invaders;
+    private PlayerShip playerShip;
+    private DefenceBrick[] bricks;
 
 
     @Before
@@ -42,8 +41,6 @@ public class SpaceInvadersViewTest {
         invaders = new Invader[60];
         bricks = new DefenceBrick[400];
     }
-
-
 
     @Test
     public void preparePlayerShip() {
@@ -58,20 +55,20 @@ public class SpaceInvadersViewTest {
 
     @Test
     public void prepareInvaders() {
-        numInvaders = 0;
+        int numInvaders = 0;
         for (int column = 0; column < 6; column++) {
             for (int row = 0; row < 5; row++) {
                 invaders[numInvaders] = new Invader(context, row, column, screenX, screenY);
                 numInvaders++;
             }
         }
-        assertTrue(numInvaders!=0);
+        assertTrue(numInvaders !=0);
         assertNotNull(invaders);
     }
 
     @Test
     public void prepareShelter() {
-        numBricks = 0;
+        int numBricks = 0;
         for (int shelterNumber = 0; shelterNumber < 4; shelterNumber++) {
             for (int column = 0; column < 10; column++) {
                 for (int row = 0; row < 5; row++) {
@@ -80,7 +77,7 @@ public class SpaceInvadersViewTest {
                 }
             }
         }
-        assertTrue(numBricks!=0);
+        assertTrue(numBricks !=0);
         assertNotNull(bricks);
     }
 
@@ -88,8 +85,18 @@ public class SpaceInvadersViewTest {
     public void powerUp(){
         /*PRIMERA PARTE*/
         /*Generamos un test que falle a propósito buscando el aserto que necesitamos*/
-        //RectF shipSize = playerShip.getRect();
-        //assertEquals(shipSize,playerShip.getRect());
+        RectF shipSize = playerShip.getRect();
+        assertFalse(shipSize.contains(playerShip.getRect()));
+
+        /*ESCRIBIMOS EL CÓDIGO QUE PUEDA CUMPLIR CON ESE TEST*/
+        //sp2.smallShip();
+        RectF newShipSize = new RectF();
+        newShipSize.set(5,5,5,5);
+        playerShip.getRect().set(newShipSize);
+
+        /*PASAMOS DE NUEVO EL TEST PARA COMPROBAR SI EL CÓDIGO CUMPLE CON EL*/
+        //assertFalse(playerShip.getRect().contains(shipSize));
+        assertFalse(shipSize.contains(playerShip.getRect()));
     }
 
 
