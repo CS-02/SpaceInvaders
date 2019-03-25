@@ -1,6 +1,7 @@
 sudo: false
 language: android
 jdk: oraclejdk8
+install: true
                 
 cache:
  directories:
@@ -14,13 +15,10 @@ cache:
   
 android:
   components:
-    - tools
-    - platform-tools
     - build-tools-25.0.2
     
 script:
         - chmod +x ./gradlew
-        - echo "skipping tests"
         - ./gradlew sonarqube
         - ./gradlew clean
         
@@ -33,7 +31,11 @@ before_install:
           - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"	
           - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"	
           - yes | sdkmanager --update
+          - pip install --user codecov    #Install codecov
 
+after_success:
+    - codecov                       #Run codecov
+    
 # deploy:
 #  provider: releases
 #  api_key: $GITHUB_TOKEN
