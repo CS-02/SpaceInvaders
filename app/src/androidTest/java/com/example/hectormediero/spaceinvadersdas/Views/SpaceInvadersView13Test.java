@@ -1,9 +1,7 @@
 package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
-import android.view.SurfaceHolder;
+
 
 import com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick;
 import com.example.hectormediero.spaceinvadersdas.Models.Invader;
@@ -13,7 +11,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
 public class SpaceInvadersView13Test {
@@ -40,7 +42,7 @@ public class SpaceInvadersView13Test {
 
     @Test
     public void preparePlayerShip() {
-        playerShip = new PlayerShip(context, 0, 0);
+        playerShip = new PlayerShip(context, screenX, screenY);
         assertNotNull(playerShip);
     }
     @Test
