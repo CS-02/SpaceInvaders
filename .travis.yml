@@ -1,5 +1,6 @@
-sudo: true
+sudo: false
 language: android
+install:true
 jdk: oraclejdk8
                 
 cache:
@@ -12,9 +13,12 @@ cache:
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
     
 script:
-        - chmod +x gradlew
-        - sh ./.exec.sh
-        - ./gradlew clean
+        - chmod +x ./gradlew
+        - ./gradlew sonarqube
+        
+addons:
+  sonarcloud:
+    organization: "cobramarley-github"
         
 before_install:
           - mkdir "$ANDROID_HOME/licenses" || true	
