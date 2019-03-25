@@ -1,0 +1,263 @@
+
+[com.example.hectormediero.spaceinvadersdas.Models.Invader#elegirColor(Ljava/lang/Integer;)V
+__unknown_file ("2"3"4"5"6"7"0*É
+2ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÇ Ç(ƒ
+€
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈ7 È(A
+%25android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri­ª
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈ7 È(P$
+%26android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;* 
+
+%25android.content.Context2getResources()Ú
+×
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈR È(\<
+%275com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""¨
+¥
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈR È(d
+
+%28int"__id*
+""ò
+ï
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈ È(e
+%29android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*&
+$
+%26android.content.res.Resources*
+
+
+%28int€
+ý
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÈ È(eH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id* 
+
+%29android.graphics.Bitmap*
+0*É
+3ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÄ Ä(ƒ
+€
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅ7 Å(A
+%20android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri­ª
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅ7 Å(P$
+%21android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;* 
+
+%20android.content.Context2getResources()Ú
+×
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅR Å(\<
+%225com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""¨
+¥
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅR Å(e
+
+%23int"__id*
+""ò
+ï
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅ Å(f
+%24android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*&
+$
+%21android.content.res.Resources*
+
+
+%23int€
+ý
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÅ Å(fH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id* 
+
+%24android.graphics.Bitmap*
+0*É
+4ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÁ Á(ƒ
+€
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂ7 Â(A
+%15android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri­ª
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂ7 Â(P$
+%16android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;* 
+
+%15android.content.Context2getResources()Ú
+×
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂR Â(\<
+%175com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""¨
+¥
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂR Â(a
+
+%18int"__id*
+""ò
+ï
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂ Â(b
+%19android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*&
+$
+%16android.content.res.Resources*
+
+
+%18int€
+ý
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÂ Â(bH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id* 
+
+%19android.graphics.Bitmap*
+0*É
+5ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¾ ¾(ƒ
+€
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿7 ¿(A
+%10android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri­ª
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿7 ¿(P$
+%11android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;* 
+
+%10android.content.Context2getResources()Ú
+×
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿R ¿(\<
+%125com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""¨
+¥
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿R ¿(a
+
+%13int"__id*
+""ò
+ï
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿ ¿(b
+%14android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*&
+$
+%11android.content.res.Resources*
+
+
+%13int€
+ý
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¿ ¿(bH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id* 
+
+%14android.graphics.Bitmap*
+0*À
+6ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java» »(‚
+ÿ
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼7 ¼(A
+%5android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri«¨
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼7 ¼(P#
+%6android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;*
+
+%5android.content.Context2getResources()Ù
+Ö
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼R ¼(\;
+%75com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""§
+¤
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼R ¼(e	
+%8int"__id*
+""ï
+ì
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼ ¼(f
+%9android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*%
+#
+%6android.content.res.Resources*
+	
+%8intÿ
+ü
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¼ ¼(fH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id*
+
+%9android.graphics.Bitmap*
+0*À
+7ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¸ ¸(‚
+ÿ
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹7 ¹(A
+%0android.content.Context"__id*M*K;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"
+
+contextPri«¨
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹7 ¹(P#
+%1android.content.res.Resources"Eandroid.content.Context#getResources()Landroid/content/res/Resources;*
+
+%0android.content.Context2getResources()Ù
+Ö
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹R ¹(\;
+%25com.example.hectormediero.spaceinvadersdas.R$drawable"__id*
+""§
+¤
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹R ¹(b	
+%3int"__id*
+""ï
+ì
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹ ¹(c
+%4android.graphics.Bitmap"handroid.graphics.BitmapFactory#decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;*"" 
+android.graphics.BitmapFactory*%
+#
+%1android.content.res.Resources*
+	
+%3intÿ
+ü
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.java¹ ¹(cH;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader"	
+bitmap2"__id*
+
+%4android.graphics.Bitmap*
+0*¨
+0 " 
+ˆ
+|/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Invader.javaÌ Ì(
+implicit return:
+cambiojava.lang.IntegerB=;
+9com.example.hectormediero.spaceinvadersdas.Models.Invader

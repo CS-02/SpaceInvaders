@@ -1,0 +1,161 @@
+
+scom.example.hectormediero.spaceinvadersdas.Activities.ScoreActivity#findImage(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("6*µ
+3“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÇ Ç(Ô
+Ñ
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÇ Ç(
+%17java.io.File"
+__arrayGet*
+
+file$Array*
+""Ž‹
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÇ Ç(0
+%18java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+%17java.io.File2getAbsolutePath()"±
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÇ Ç(1
+
+%18java.lang.String*û
+4“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÄ Ä(Â
+¿
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÄ Ä(
+%8java.io.PrintStream"__id*
+""§¤
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÄ Ä(2
+
+%9void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%8java.io.PrintStream*
+EEEEEEEEEEEEEEEE2println(Ljava/lang/String;)Ã
+À
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÅ Å(
+%10java.io.PrintStream"__id*
+""Ô
+Ñ
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÅ Å(&
+%11java.io.File"
+__arrayGet*
+
+file$Array*
+""þû
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÅ Å(0
+%12java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+%11java.io.File2	getName()®«
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÅ Å(1
+%13void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%10java.io.PrintStream*
+
+%12java.lang.String2println(Ljava/lang/String;)Ô
+Ñ
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÆ Æ(
+%14java.io.File"
+__arrayGet*
+
+file$Array*
+""þû
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÆ Æ( 
+%15java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+%14java.io.File2	getName()¾»
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÆ Æ(3
+%16boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%15java.lang.String*
+
+usernamejava.lang.String2"contains(Ljava/lang/CharSequence;)*	
+3
+4
+1*ø
+6“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java½ ½('—
+”
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java½ ½('
+%0java.lang.String"__id*^*\E
+Ccom.example.hectormediero.spaceinvadersdas.Activities.ScoreActivity"
+mCurrentPhotoPath¿
+¼
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java½) ½(7
+%1java.lang.String"__id*
+""ï
+ì
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java½ ½(7
+%2java.lang.String"__concat*
+
+%0java.lang.String*
+
+%1java.lang.StringÓ
+Ð
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java½ ½(8
+pathjava.lang.String"__id*
+
+%2java.lang.StringÂ
+¿
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java¾ ¾(
+%3java.io.PrintStream"__id*
+""­ª
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java¾ ¾( 
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%3java.io.PrintStream*
+
+pathjava.lang.String2println(Ljava/lang/String;)»¸
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java¿ ¿(
+%5java.io.File"java.io.Fileû
+ø
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java¿ ¿(
+%6"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%5java.io.File*
+
+pathjava.lang.StringÈ
+Å
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.java¿ ¿( 
+fjava.io.File"__id*
+
+%5java.io.Fileòï
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÁ Á(#
+%7$Array"'java.io.File#listFiles()[Ljava/io/File;*
+
+fjava.io.File2listFiles()¿
+¼
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÁ Á($
+file$Array"__id*
+
+%7$Array*
+4
+1*º
+1“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÊ Ê("ž
+“
+†/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/ScoreActivity.javaÊ Ê(
+No:
+usernamejava.lang.StringBGE
+Ccom.example.hectormediero.spaceinvadersdas.Activities.ScoreActivity

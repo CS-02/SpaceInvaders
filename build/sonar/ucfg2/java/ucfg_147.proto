@@ -1,0 +1,275 @@
+
+Rcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView#prepareLevel()V
+__unknown_file ("29*∫
+24í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaì ì(ä
+á
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaì ì(+
+%10$Array"__id*[*YD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+ambusherBullets*
+4
+17
+0
+23
+12*É
+4í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™ ™(Å
+˛
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™ ™(
+%25$Array"__id*R*PD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+bricksÉ
+Ä
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™n ™(v
+%26$Array"__id*T*RD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+invaders˝
+˙
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™n ™(y@
+%279com.example.hectormediero.spaceinvadersdas.Models.Invader"
+__arrayGet*
+
+%26$Array*2¿Ω
+ì
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™n ™(Ö
+%28float"Fcom.example.hectormediero.spaceinvadersdas.Models.Invader#getHeight()F*B
+@
+%279com.example.hectormediero.spaceinvadersdas.Models.Invader2getHeight()üú
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™, ™(8E
+%29>com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick">com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick‡
+›
+ì
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™( ™(Ü
+%30"Mcom.example.hectormediero.spaceinvadersdas.Models.DefenceBrick#<init>(IIIII)V*G
+E
+%29>com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick*
+""*
+""*
+""*
+""*
+""é
+ã
+ì
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java™ ™(Ü
+%31"
+__arraySet*
+
+%25$Array*
+""*G
+E
+%29>com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick*
+4
+0*˜	
+27í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaè è(â
+Ü
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaè è(
+%6$Array"__id*[*YD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+invadersBulletsíè
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaè% è(+>
+%78com.example.hectormediero.spaceinvadersdas.Models.Bullet"8com.example.hectormediero.spaceinvadersdas.Models.Bullet≠
+™
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaè! è(4
+%8"Ccom.example.hectormediero.spaceinvadersdas.Models.Bullet#<init>(I)V*@
+>
+%78com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+""Ñ
+Å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaè è(4
+%9"
+__arraySet*
+
+%6$Array*
+""*@
+>
+%78com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+28*Ú
+17í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ õ(É
+Ä
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ õ(
+%15$Array"__id*T*RD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+invadersì
+ê
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ4 õ(;
+%16android.content.Context"__id*S*QD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"	
+contextïí
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ, õ(3@
+%179com.example.hectormediero.spaceinvadersdas.Models.Invader"9com.example.hectormediero.spaceinvadersdas.Models.Invaderá
+Ñ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ( õ([
+%18"`com.example.hectormediero.spaceinvadersdas.Models.Invader#<init>(Landroid/content/Context;IIII)V*B
+@
+%179com.example.hectormediero.spaceinvadersdas.Models.Invader* 
+
+%16android.content.Context*
+""*
+""*
+""*
+""à
+Ö
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaõ õ([
+%19"
+__arraySet*
+
+%15$Array*
+""*B
+@
+%179com.example.hectormediero.spaceinvadersdas.Models.Invader*
+4
+17
+0
+12*Ø
+28í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaé é(â
+Ü
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaé é(+
+%5$Array"__id*[*YD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+invadersBullets*
+24
+27*É
+29í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaà$ à(+í
+è
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaà$ à(+
+%0android.content.Context"__id*S*QD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"	
+contextöó
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaà à(#B
+%1<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip¯
+ı
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaà à(>
+%2"acom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#<init>(Landroid/content/Context;II)V*D
+B
+%1<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+
+%0android.content.Context*
+""*
+""∫
+∑
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaà à(>TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip"__id*D
+B
+%1<com.example.hectormediero.spaceinvadersdas.Models.PlayerShipíè
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaã ã(>
+%38com.example.hectormediero.spaceinvadersdas.Models.Bullet"8com.example.hectormediero.spaceinvadersdas.Models.Bullet≠
+™
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaã ã($
+%4"Ccom.example.hectormediero.spaceinvadersdas.Models.Bullet#<init>(I)V*@
+>
+%38com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+""≤
+Ø
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaã ã($PD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+bullet"__id*@
+>
+%38com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+28*≤
+0 "™
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaØ Ø(
+implicit return*Î
+12í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢ ¢(É
+Ä
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢ ¢(
+%20$Array"__id*T*RD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+ambusherì
+ê
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢1 ¢(8
+%21android.content.Context"__id*S*QD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"	
+contextóî
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢( ¢(0A
+%22:com.example.hectormediero.spaceinvadersdas.Models.Ambusher":com.example.hectormediero.spaceinvadersdas.Models.AmbusherÅ
+˛
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢$ ¢(Q
+%23"acom.example.hectormediero.spaceinvadersdas.Models.Ambusher#<init>(Landroid/content/Context;IIII)V*C
+A
+%22:com.example.hectormediero.spaceinvadersdas.Models.Ambusher* 
+
+%21android.content.Context*2 *2 *
+""*
+""â
+Ü
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¢ ¢(Q
+%24"
+__arraySet*
+
+%20$Array*
+""*C
+A
+%22:com.example.hectormediero.spaceinvadersdas.Models.Ambusher*
+
+4
+0
+12*˛	
+23í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaî î(ä
+á
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaî î(
+%11$Array"__id*[*YD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+ambusherBulletsìê
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaî% î(+?
+%128com.example.hectormediero.spaceinvadersdas.Models.Bullet"8com.example.hectormediero.spaceinvadersdas.Models.BulletØ
+¨
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaî! î(4
+%13"Ccom.example.hectormediero.spaceinvadersdas.Models.Bullet#<init>(I)V*A
+?
+%128com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+""á
+Ñ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaî î(4
+%14"
+__arraySet*
+
+%11$Array*
+""*A
+?
+%128com.example.hectormediero.spaceinvadersdas.Models.Bullet*
+24BFD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView

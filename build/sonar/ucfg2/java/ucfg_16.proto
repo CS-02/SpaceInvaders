@@ -1,0 +1,73 @@
+
+jcom.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity#createImageFile()Ljava/io/File;
+__unknown_file ("1*π
+1ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javak k('ö
+ó
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javak k('
+%0java.lang.String"__id*\*ZL
+Jcom.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity"
+
+username·
+ﬁ
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javak k((!
+imageFileNamejava.lang.String"__id*
+
+%0java.lang.String
+Ì
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javal. l(L
+%1java.lang.String"__id*2*0
+android.os.Environment"
+DIRECTORY_PICTURESõò
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javal l(M
+%2java.io.File"Tandroid.content.ContextWrapper#getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;*NL
+Jcom.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity*
+
+%1java.lang.String2'getExternalFilesDir(Ljava/lang/String;)÷
+”
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javal l(N
+
+storageDirjava.io.File"__id*
+
+%2java.io.File
+Ì
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javam q(	
+%3java.io.File"]java.io.File#createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;*"
+java.io.File*#
+!
+imageFileNamejava.lang.String*
+.jpg*
+
+
+storageDirjava.io.File—
+Œ
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javam q(
+
+imagejava.io.File"__id*
+
+%3java.io.FileâÜ
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javat t(0
+%4java.lang.String"(java.io.File#getPath()Ljava/lang/String;*
+
+
+storageDirjava.io.File2	getPath()£
+†
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javat t(0cL
+Jcom.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity"
+mCurrentPhotoPath"__id*
+
+%4java.lang.String"¥
+ò
+ç/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Activities/SpaceInvaderActivity.javau u(
+
+imagejava.io.FileBNL
+Jcom.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity

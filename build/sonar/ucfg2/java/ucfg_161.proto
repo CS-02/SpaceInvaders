@@ -1,0 +1,331 @@
+
+lcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView#onTouchEvent(Landroid/view/MotionEvent;)Z
+__unknown_file ("paramAnnotations*∂
+24í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸ ¸(é
+ã
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸! ¸($
+%6android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izqıÚ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸! ¸(/	
+%7int"#android.graphics.Bitmap#getWidth()I*
+
+%6android.graphics.Bitmap2
+getWidth()*
+14
+19
+9
+22
+1*±
+14í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇ% Ç(&è
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇ. Ç(1
+%20android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˜Ù
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇ. Ç(<
+
+%21int"#android.graphics.Bitmap#getWidth()I* 
+
+%20android.graphics.Bitmap2
+getWidth()*
+
+9
+12
+1*·
+25í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˘ ˘(±
+Æ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˘ ˘((	
+%5int"__id*
+""*
+24
+14
+19
+9
+1*˘
+16í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÅ Å(ª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÅ Å(C
+%17<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShipª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÅ0 Å(:C
+%18<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip‹Ÿ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÅ Å(A
+%19void"Qcom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#setMovementState(I)V*E
+C
+%17<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+""2setMovementState(I)*
+1*∑
+17í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇW ˇ(Xè
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇk ˇ(n
+%15android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˘ˆ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇk ˇ(z
+
+%16int"$android.graphics.Bitmap#getHeight()I* 
+
+%15android.graphics.Bitmap2getHeight()*
+14
+16
+9
+1*µ
+19í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇ& ˇ('è
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇ0 ˇ(3
+%13android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˜Ù
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˇ0 ˇ(>
+
+%14int"#android.graphics.Bitmap#getWidth()I* 
+
+%13android.graphics.Bitmap2
+getWidth()*
+14
+17
+9
+1*ˆ
+paramAnnotationsí
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÚ Ú(8Ì
+Í
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÒ Ò(
+%4"
+__annotate*
+java.lang.Override*)
+'
+motionEventandroid.view.MotionEvent◊
+‘
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÚ, Ú(7'
+motionEventandroid.view.MotionEvent"__annotation*
+
+%4*
+2*∏
+1í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaí í("ù
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaí í(
+""*◊
+2í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÙ Ù(˙˜
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÙ Ù($
+%0float" android.view.MotionEvent#getX()F*)
+'
+motionEventandroid.view.MotionEvent2getX()˙˜
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaı ı($
+%1float" android.view.MotionEvent#getY()F*)
+'
+motionEventandroid.view.MotionEvent2getY()Çˇ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˆ ˆ('	
+%2int"%android.view.MotionEvent#getAction()I*)
+'
+motionEventandroid.view.MotionEvent2getAction()±
+Æ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaˆ* ˆ(A	
+%3int"__id*
+""*
+
+3
+25
+1*≠
+
+3í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaå å(≤
+Ø
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaå å(&
+
+%34int"__id*
+""ª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaé é(C
+%35<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShipª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaé, é(6C
+%36<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip‹Ÿ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaé é(?
+%37void"Qcom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#setMovementState(I)V*E
+C
+%35<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+""2setMovementState(I)*
+1*¯
+6í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaá á(ª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaá á(C
+%31<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShipª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaá0 á(:C
+%32<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip‹Ÿ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaá á(@
+%33void"Qcom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#setMovementState(I)V*E
+C
+%31<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+""2setMovementState(I)*
+1*Æ
+7í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖU Ö(Vè
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖh Ö(k
+%29android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˘ˆ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖh Ö(w
+
+%30int"$android.graphics.Bitmap#getHeight()I* 
+
+%29android.graphics.Bitmap2getHeight()*
+6
+1*¨
+9í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖ% Ö(&è
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖ. Ö(1
+%27android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˜Ù
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÖ. Ö(<
+
+%28int"#android.graphics.Bitmap#getWidth()I* 
+
+%27android.graphics.Bitmap2
+getWidth()*
+7
+1*˘
+21í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˛ ˛(ª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˛ ˛(C
+%10<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShipª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˛0 ˛(:C
+%11<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip‹Ÿ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java˛ ˛(@
+%12void"Qcom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#setMovementState(I)V*E
+C
+%10<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+""2setMovementState(I)*
+1*∏
+22í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸H ¸(Ié
+ã
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸\ ¸(_
+%8android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˜Ù
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.java¸\ ¸(k	
+%9int"$android.graphics.Bitmap#getHeight()I*
+
+%8android.graphics.Bitmap2getHeight()*
+14
+19
+9
+21
+1*˘
+11í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÑ Ñ(ª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÑ Ñ(C
+%24<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShipª
+∏
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÑ0 Ñ(:C
+%25<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip"__id*V*TD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+
+playerShip‹Ÿ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÑ Ñ(>
+%26void"Qcom.example.hectormediero.spaceinvadersdas.Models.PlayerShip#setMovementState(I)V*E
+C
+%24<com.example.hectormediero.spaceinvadersdas.Models.PlayerShip*
+""2setMovementState(I)*
+1*≥
+12í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇU Ç(Vè
+å
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇi Ç(l
+%22android.graphics.Bitmap"__id*O*MD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView"
+izq˘ˆ
+í
+Ö/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Views/SpaceInvadersView.javaÇi Ç(x
+
+%23int"$android.graphics.Bitmap#getHeight()I* 
+
+%22android.graphics.Bitmap2getHeight()*
+
+9
+11
+1:'
+motionEventandroid.view.MotionEventBFD
+Bcom.example.hectormediero.spaceinvadersdas.Views.SpaceInvadersView
