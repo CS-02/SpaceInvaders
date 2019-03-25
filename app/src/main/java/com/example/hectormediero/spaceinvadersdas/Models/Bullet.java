@@ -10,8 +10,8 @@ public class Bullet {
     private RectF rect;
 
     // En qué dirección se está disparando
-    public static final int UP = 0;
-    public static final int DOWN = 1;
+    public final int UP = 0;
+    public final int DOWN = 1;
 
     // No vas a ningún lado
     int heading = -1;
