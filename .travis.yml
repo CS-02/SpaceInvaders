@@ -21,7 +21,6 @@ android:
     
 script:
         - chmod +x ./gradlew
-        - ./gradlew sonarqube
         - ./gradlew clean
         
 addons:
@@ -33,11 +32,15 @@ before_install:
           - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"	
           - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"	
           - yes | sdkmanager --update
-          - pip install --user codecov    #Install codecov
           - sudo apt-get install junit
+          - sudo apt-get install junit4
+          - mkdir ~/junit
+          - ln -s /usr/share/java/junit4.jar ~/junit
+          - ln -s /usr/share/java/hamcrest-core.jar ~/junit
+          - export JUNIT_HOME=~/junit
 
 after_success:
-    - codecov                       #Run codecov
+    - ./gradlew sonarqube
     
 # deploy:
 #  provider: releases
