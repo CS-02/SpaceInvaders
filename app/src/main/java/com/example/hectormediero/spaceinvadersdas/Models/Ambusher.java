@@ -124,9 +124,6 @@ public class Ambusher {
     public boolean TakeAim () {
         int randomNumber = -1;
         randomNumber = generator.nextInt(25);
-        if(randomNumber == 0) {
-            return true;
-        }
-        return false;
+        return randomNumber == 0;
     }
 }

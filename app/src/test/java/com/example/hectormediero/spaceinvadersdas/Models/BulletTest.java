@@ -1,7 +1,5 @@
 package com.example.hectormediero.spaceinvadersdas.Models;
 
-import android.content.Context;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -9,7 +7,6 @@ import static org.junit.Assert.assertEquals;
 
 public class BulletTest {
 
-    Context context;
     Bullet bullet;
 
     @Before

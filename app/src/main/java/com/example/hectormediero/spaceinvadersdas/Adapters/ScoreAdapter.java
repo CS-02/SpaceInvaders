@@ -42,14 +42,14 @@ public class ScoreAdapter extends ArrayAdapter<Score> {
         // A partir de la vista, recogeremos los controles que contiene para
         // poder manipularlos.
         // Recogemos el ImageView y le asignamos una foto.
-        ImageView imagen = (ImageView) item.findViewById(R.id.imageView);
+        ImageView imagen = item.findViewById(R.id.imageView);
        // imagen.setImageResource(R.drawable.celeste);
         setPic(imagen,datos.get(position).getNombre());
 
-        TextView numero = (TextView) item.findViewById(R.id.etNumero);
+        TextView numero = item.findViewById(R.id.etNumero);
         numero.setText(datos.get(position).getPuntuacion().toString());
 
-        TextView etiqueta = (TextView) item.findViewById(R.id.etTag);
+        TextView etiqueta = item.findViewById(R.id.etTag);
         etiqueta.setText(datos.get(position).getNombre());
 
 

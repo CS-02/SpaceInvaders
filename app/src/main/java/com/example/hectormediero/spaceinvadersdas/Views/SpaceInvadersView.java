@@ -230,7 +230,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                 // Mueve el siguiente invader
                 invaders[i].update(fps);
                 // ¿Quiere hacer un disparo?
-                if (invaders[i].takeAim(playerShip.getX(), playerShip.getLength()) && (!invadersBullets[i].getStatus() && nextInvaderBullet <= MAX_INVADER_BULLET) && (invadersBullets[i].shoot(invaders[i].getX() + invaders[i].getLength() / 2, invaders[i].getY(), bullet.DOWN))) {
+                if (invaders[i].takeAim(playerShip.getX(), playerShip.getLength()) && (!invadersBullets[i].getStatus() && nextInvaderBullet <= MAX_INVADER_BULLET) && (invadersBullets[i].shoot(invaders[i].getX() + invaders[i].getLength() / 2, invaders[i].getY(), Bullet.DOWN))) {
                     nextInvaderBullet++;
                 }
                 // Si ese movimiento causó que golpearan la pantalla,
@@ -248,7 +248,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         for (int i = 0; i < numAmbusher; i++) {
             if (ambusher[i].getVisibility()) {
                 ambusher[i].update(fps);  //Actualiza la posición del ambusher
-                if (ambusher[i].TakeAim() && ambusherBullets[nextAmbusherBullet].shoot(ambusher[i].getX() + ambusher[i].getLength() / 2, ambusher[i].getY(), bullet.DOWN)) {
+                if (ambusher[i].TakeAim() && ambusherBullets[nextAmbusherBullet].shoot(ambusher[i].getX() + ambusher[i].getLength() / 2, ambusher[i].getY(), Bullet.DOWN)) {
                     nextAmbusherBullet++;
                     if (nextAmbusherBullet == MAX_AMBUSHER_BULLET) {
                         nextAmbusherBullet = 0;

@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-
 import com.example.hectormediero.spaceinvadersdas.BDD.BaseDeDatosPuntuaciones;
 import com.example.hectormediero.spaceinvadersdas.Models.Score;
 
