@@ -1,6 +1,5 @@
 sudo: false
 language: android
-install: true
 jdk: oraclejdk8
                 
 cache:
@@ -21,6 +20,7 @@ android:
     
 script:
         - chmod +x ./gradlew
+        - - echo "skipping tests"
         - ./gradlew sonarqube
         - ./gradlew clean
         
