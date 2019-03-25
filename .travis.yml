@@ -20,7 +20,7 @@ android:
     
 script:
         - chmod +x ./gradlew
-        - - echo "skipping tests"
+        - echo "skipping tests"
         - ./gradlew sonarqube
         - ./gradlew clean
         
