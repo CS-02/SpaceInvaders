@@ -1,7 +1,0 @@
-organization=cobramarley-github
-projectKey=cobramarley_SpaceInvaders
-serverUrl=https://sonarcloud.io
-serverVersion=7.7.0.22792
-dashboardUrl=https://sonarcloud.io/dashboard?id=cobramarley_SpaceInvaders
-ceTaskId=AWmrEqKEjwiscBO3mOb7
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWmrEqKEjwiscBO3mOb7

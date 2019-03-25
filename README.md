@@ -27,4 +27,3 @@
 [![Bugs](https://sonarcloud.io/api/badges/measure?key=cobramarley_SpaceInvaders&metric=bugs)](https://sonarcloud.io/component_measures?id=cobramarley_SpaceInvaders&metric=bugs)
 [![Reliability remediation effort](https://sonarcloud.io/api/badges/measure?key=cobramarley_SpaceInvaders&metric=reliability_remediation_effort)](https://sonarcloud.io/component_measures?id=cobramarley_SpaceInvaders&metric=reliability_remediation_effort)
 [![Coverage](https://sonarcloud.io/api/badges/measure?key=cobramarley_SpaceInvaders&metric=coverage)](https://sonarcloud.io/component_measures?id=cobramarley_SpaceInvaders&metric=coverage)
-votaVOX

@@ -1,85 +1,0 @@
-
-Vcom.example.hectormediero.spaceinvadersdas.Models.Score#compareTo(Ljava/lang/Object;)I
-__unknown_file ("paramAnnotations*ú
-2Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java9 9("è
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java9 9(
-""*‡
-3Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java8 8(ˆ
-Û
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java8 8( 
-%4java.lang.Integer"__id*K*I9
-7com.example.hectormediero.spaceinvadersdas.Models.Score"
-
-puntuacion“
-œ
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java8! 8(7
-%5java.lang.Integer"__id*'*%
-
-ojava.lang.Object"
-
-puntuacion*
-2
-1*ú
-4Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java7 7("è
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java7 7(
-""*‡
-5Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java6 6(ˆ
-Û
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java6 6(
-%0java.lang.Integer"__id*K*I9
-7com.example.hectormediero.spaceinvadersdas.Models.Score"
-
-puntuacion“
-œ
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java6 6(1
-%1java.lang.Integer"__id*'*%
-
-ojava.lang.Object"
-
-puntuacion*
-3
-4*ê
-paramAnnotationsÑ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java5 5(+Õ
- 
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java4 4(
-%2"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object›
-⁄
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java5 5(!
-%3"
-__annotate*&$
-"android.support.annotation.NonNull*
-
-ojava.lang.Objectø
-º
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java5) 5(*
-ojava.lang.Object"__annotation*
-
-%2*
-
-%3*
-5*ú
-1Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java; ;("è
-Ñ
-z/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Models/Score.java; ;(
-"":
-ojava.lang.ObjectB;9
-7com.example.hectormediero.spaceinvadersdas.Models.Score
