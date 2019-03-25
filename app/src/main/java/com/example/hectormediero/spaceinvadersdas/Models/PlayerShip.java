@@ -151,4 +151,8 @@ public class PlayerShip {
         rect.left = x;
         rect.right = x + length;
     }
+
+    public void setBitmap(Bitmap bitmap) {
+        this.bitmap = bitmap;
+    }
 }
