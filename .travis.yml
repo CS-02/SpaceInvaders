@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 language: android
 jdk: oraclejdk8
 install: true
@@ -9,6 +9,7 @@ cache:
  - $HOME/.gradle/wrapper/
  - $HOME/.sonar/cache
  - $HOME/.gradle/native      #Cache library downloaded from the gradle dependency
+ - $HOME/.gradle/daemon
  
  before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
@@ -33,6 +34,7 @@ before_install:
           - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"	
           - yes | sdkmanager --update
           - pip install --user codecov    #Install codecov
+          - sudo apt-get install junit
 
 after_success:
     - codecov                       #Run codecov
