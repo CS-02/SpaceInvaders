@@ -605,7 +605,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
     }
 
     private void tpTimer() {
-        tp = new CountDownTimer(6000000, 9000) {
+        tp = new CountDownTimer(300000, 10000) {
             public void onTick(long millisUntilFinished) {
                 SecureRandom sr = new SecureRandom();
                 int contador = 0;
@@ -619,10 +619,17 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
 
                 //Implementar relatividad general, aplicando un campo magnético a la nave del jugador,
                 // desde el punto de vista físico la lógica carece de sentido.  ????????????????
-                contador = timerCount(rectaux,contador);
+                contador = timerCount(rectaux, contador);
 
                 if (contador == 0) {
                     playerShip.actualizarRectangulo(nHorizontal, nVertical);
+                }
+
+                //Añadido para la prueba
+                if(contador % 2 == 0){
+                    smallShip();
+                }else {
+                    largeShip();
                 }
 
             }
@@ -634,7 +641,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
         }.start();
     }
 
-    private int timerCount(RectF rectaux, int num){
+    private int timerCount(RectF rectaux, int num) {
         int contador = num;
         for (Bullet invadersBullet : invadersBullets) {
             if (rectaux.intersect(invadersBullet.getRect())) {
@@ -661,11 +668,12 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
                     ambusher[clock].setVisible();
                 }
                 clock++;
+
             }
 
             @Override
             public void onFinish() {
-                //Not necessary
+                //
             }
         }.start();
     }
@@ -673,6 +681,22 @@ public class SpaceInvadersView extends SurfaceView implements Runnable {
     public void cancelTimer() {
         if (tp != null) tp.cancel();
         if (ambush != null) ambush.cancel();
+    }
+
+    public void smallShip() {
+        RectF newShipSize = new RectF();
+        newShipSize.set(playerShip.getX() / 2, (playerShip.getY() + playerShip.getHeight()) / 2, (playerShip.getX() + playerShip.getLength()) / 2, playerShip.getY());
+        playerShip.getRect().set(newShipSize);
+        Bitmap newBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.arr);
+        playerShip.setBitmap(newBitmap);
+    }
+
+    public void largeShip(){
+        RectF newShipSize = new RectF();
+        newShipSize.set(playerShip.getX()*2,(playerShip.getY()+playerShip.getHeight())*2,(playerShip.getX()+playerShip.getLength())*2,playerShip.getY()*2);
+        playerShip.getRect().set(newShipSize);
+        Bitmap newBitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.playership);
+        playerShip.setBitmap(newBitmap);
     }
 
 }

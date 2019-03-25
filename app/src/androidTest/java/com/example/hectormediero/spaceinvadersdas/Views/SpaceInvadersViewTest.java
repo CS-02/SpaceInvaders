@@ -1,6 +1,8 @@
 package com.example.hectormediero.spaceinvadersdas.Views;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 
 
@@ -8,6 +10,7 @@ import com.example.hectormediero.spaceinvadersdas.Models.Bullet;
 import com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick;
 import com.example.hectormediero.spaceinvadersdas.Models.Invader;
 import com.example.hectormediero.spaceinvadersdas.Models.PlayerShip;
+import com.example.hectormediero.spaceinvadersdas.R;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -82,21 +85,37 @@ public class SpaceInvadersViewTest {
     }
 
     @Test
-    public void powerUp(){
+    public void smallShip(){
         /*PRIMERA PARTE*/
         /*Generamos un test que falle a propósito buscando el aserto que necesitamos*/
         RectF shipSize = playerShip.getRect();
-        assertFalse(shipSize.contains(playerShip.getRect()));
+//        assertFalse(shipSize.contains(playerShip.getRect()));
 
         /*ESCRIBIMOS EL CÓDIGO QUE PUEDA CUMPLIR CON ESE TEST*/
+//        RectF newShipSize = new RectF();
+//        newShipSize.set(playerShip.getX()/2,(playerShip.getY()+playerShip.getHeight())/2,(playerShip.getX()+playerShip.getLength())/2,playerShip.getY()/2);
+//        playerShip.getRect().set(newShipSize);
+//        Bitmap newBitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.playership);
+//        playerShip.setBitmap(newBitmap);
+
         //sp2.smallShip();
-        RectF newShipSize = new RectF();
-        newShipSize.set(5,5,5,5);
-        playerShip.getRect().set(newShipSize);
 
         /*PASAMOS DE NUEVO EL TEST PARA COMPROBAR SI EL CÓDIGO CUMPLE CON EL*/
-        //assertFalse(playerShip.getRect().contains(shipSize));
         assertFalse(shipSize.contains(playerShip.getRect()));
+    }
+
+    @Test
+    public void largeShip(){
+        RectF shipSize = playerShip.getRect();
+
+        RectF newShipSize = new RectF();
+        newShipSize.set(playerShip.getX()*2,(playerShip.getY()+playerShip.getHeight())*2,(playerShip.getX()+playerShip.getLength())*2,playerShip.getY()*2);
+        playerShip.getRect().set(newShipSize);
+        Bitmap newBitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.playership);
+        playerShip.setBitmap(newBitmap);
+        //sp2.largeShip();
+
+        assertFalse(newShipSize.contains(shipSize));
     }
 
 
