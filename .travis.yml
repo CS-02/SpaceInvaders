@@ -15,6 +15,7 @@ cache:
 script:
         - chmod +x ./gradlew
         - ./gradlew sonarqube
+        - ./gradlew clean
         
 addons:
   sonarcloud:
@@ -32,3 +33,5 @@ deploy:
   file:
     - "app/**"
   skip_cleanup: true
+  on:
+    branch: master
