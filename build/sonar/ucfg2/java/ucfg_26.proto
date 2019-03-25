@@ -1,111 +1,0 @@
-
-pcom.example.hectormediero.spaceinvadersdas.Adapters.ScoreAdapter#findImage(Ljava/lang/String;)Ljava/lang/String;
-__unknown_file ("6*ü
-3é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaa a(Œ
-À
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaa a(
-%9java.io.File"
-__arrayGet*
-
-file$Array*
-""àÖ
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaa a(0
-%10java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
-
-%9java.io.File2getAbsolutePath()"¨
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaa a(1
-
-%10java.lang.String*§
-4é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java` `(Œ
-À
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java` `(
-%6java.io.File"
-__arrayGet*
-
-file$Array*
-""˜Ù
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java` `( 
-%7java.lang.String"(java.io.File#getName()Ljava/lang/String;*
-
-%6java.io.File2	getName()∑¥
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java` `(3
-%8boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
-
-%7java.lang.String*
-
-usernamejava.lang.String2"contains(Ljava/lang/CharSequence;)*	
-3
-4
-1*Œ
-6é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaY Y('è
-å
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaY Y('
-%0java.lang.String"__id*[*YB
-@com.example.hectormediero.spaceinvadersdas.Adapters.ScoreAdapter"
-mCurrentPhotoPath∫
-∑
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaY) Y(7
-%1java.lang.String"__id*
-""Í
-Á
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaY Y(7
-%2java.lang.String"__concat*
-
-%0java.lang.String*
-
-%1java.lang.StringŒ
-À
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaY Y(8
-pathjava.lang.String"__id*
-
-%2java.lang.String∂≥
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaZ Z(
-%3java.io.File"java.io.Fileˆ
-Û
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaZ Z(
-%4"(java.io.File#<init>(Ljava/lang/String;)V*
-
-%3java.io.File*
-
-pathjava.lang.String√
-¿
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javaZ Z( 
-fjava.io.File"__id*
-
-%3java.io.FileÌÍ
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java\ \(#
-%5$Array"'java.io.File#listFiles()[Ljava/io/File;*
-
-fjava.io.File2listFiles()∫
-∑
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.java\ \($
-file$Array"__id*
-
-%5$Array*
-4
-1*∞
-1é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javad d("ô
-é
-É/Users/jorge/Documents/GitHub/SpaceInvaders/app/src/main/java/com/example/hectormediero/spaceinvadersdas/Adapters/ScoreAdapter.javad d(
-No:
-usernamejava.lang.StringBDB
-@com.example.hectormediero.spaceinvadersdas.Adapters.ScoreAdapter
