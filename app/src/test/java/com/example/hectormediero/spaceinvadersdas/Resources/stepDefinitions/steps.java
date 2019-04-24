@@ -5,6 +5,7 @@ import android.content.ContextWrapper;
 import android.support.constraint.Barrier;
 import android.view.ContextThemeWrapper;
 
+import com.example.hectormediero.spaceinvadersdas.Activities.SpaceInvaderActivity;
 import com.example.hectormediero.spaceinvadersdas.Models.Ambusher;
 import com.example.hectormediero.spaceinvadersdas.Models.Bullet;
 import com.example.hectormediero.spaceinvadersdas.Models.DefenceBrick;
@@ -43,6 +44,7 @@ public class steps {
     private Ambusher ambusher;
     private int numInvaders;
     private int numAmbusher;
+    private SpaceInvadersView spaceInvadersView;
 
     @Before
     public void before(){
@@ -71,7 +73,7 @@ public class steps {
             }
         }
         ambusher = new Ambusher(context,0,0,screenX,screenY);
-
+        spaceInvadersView = new SpaceInvadersView(context,screenX,screenY,"Tester");
     }
 
     @Then("there should be more than {int} bullets")
@@ -117,5 +119,17 @@ public class steps {
     @Then("there should be more than {int} ambusher")
     public void thereShouldBeMoreThanAmbusher(int arg0) {
         assertNotNull(ambusher);
+    }
+
+    //INTEGRATION TEST
+
+    @Given("every model ready to be tested")
+    public void everyModelReadyToBeTested() {
+
+    }
+
+    @Then("every model should be accessed by the SpaceInvadersView class")
+    public void everyModelShouldBeAccessedByTheSpaceInvadersViewClass() {
+        assertNotNull(spaceInvadersView);
     }
 }
